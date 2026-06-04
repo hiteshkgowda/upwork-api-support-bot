@@ -1,0 +1,18 @@
+# Secrets - never commit (Assignment Rule #3)
+.env
+.streamlit/secrets.toml
+
+# Generated artifacts
+vector_store/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
